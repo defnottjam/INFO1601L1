@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="My first website">
+        <meta name="keywords" content="INFO1601, uwi, web">
+        <title>My First Page</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>This is my first website</h1>
+        </header>
+
+        <article>
+            <section>
+                <h2>Welcome</h2>
+            </section>
+
+           <section>
+                <figure>
+                    <img src="https://cdn.mos.cms.futurecdn.net/5FmFtc974AjN255w6iELLj-970-80.jpg.webp" alt="The Grumpy Cat" width="350" height="300">
+                    <figcaption>Fig 1. The Grumpy Cat</figcaption>
+                </figure>
+           </section>
+
+           <section>
+               <details>
+                   <summary>Hobbies</summary>
+                   <ul>
+                    <li>Being Grumpy</li>
+                    <li>Sleeping</li>
+                    <li>Grumpiness</li>
+                    <li>Eating</li>
+                </ul>
+               </details>
+            </section>
+
+            <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
+
+        </article>
+           
+    </body>
+<html>
